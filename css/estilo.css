@@ -1,0 +1,50 @@
+:root{
+	--titleColor:#3c3c3c;
+	--textColor:#6a6a6a;
+}
+
+*,
+*::before,
+*::after {
+	margin:0;
+	padding:5px;
+	box-sizing:border-box;
+}
+
+nav {
+
+	display:;
+	text-align:center; 
+	padding:5px;
+	background:#9DD5F3; 
+}
+
+nav img.logo {
+	width:250px;
+	height:100px;
+}
+
+nav ul.menu {
+	margin-top:50px;
+	list-style:none;
+	display:flex;
+}
+
+nav ul.menu img, li:not(:last-child) {
+	margin-right:50px; 
+}
+
+nav ul.menu li a:link,
+nav ul.menu li a:visited {
+	font-size:15px;
+	color:#000000;
+	text-decoration:none;
+	text-transform:uppercase;
+ }
+
+nav ul.menu li a:hover,
+nav ul.menu li a:active {
+	opacity:.7;
+}
+
+
